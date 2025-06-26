@@ -35,8 +35,12 @@ in questa sezione se non abbiamo l alias start lo andiamo a creare
 
 poi dopo nel terminale andiamo a digitare  nmp run start
 
+per far monitorare il server continuamente andiamo  a modificare una porzione di codice
 
-
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -- watch server.js"
+  },
 
 
 
